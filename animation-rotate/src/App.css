@@ -8,12 +8,13 @@
   place-self: center;
   display: grid;
   background: tan;
-  width: 1000px;
-  height: 400px;
-  padding-bottom: 50px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
 }
 .border{
   border-bottom: white solid 3px;
+  border-left: white solid 3px;
   height: 150px;
   width: 700px;
   justify-self: center;
@@ -25,6 +26,7 @@
   padding: 15px;
 }
 .obj{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 50px;
   margin: 0;
   color: white;
@@ -45,3 +47,4 @@
 .btn:active{
   background: tomato;
 }
+
