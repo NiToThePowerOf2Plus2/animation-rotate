@@ -10,26 +10,38 @@
   background: tan;
   width: 1000px;
   height: 400px;
-  padding: 50px;
+  padding-bottom: 50px;
 }
 .border{
-  border-bottom: black solid 3px;
+  border-bottom: white solid 3px;
   height: 150px;
   width: 700px;
   justify-self: center;
   align-self: end;
   display: grid;
+  grid-auto-flow: column;
+  justify-items: center;
+  align-items: center;
+  padding: 15px;
 }
 .obj{
-  justify-self: center;
-  align-self: end;
-  font-size: 70px;
+  font-size: 50px;
   margin: 0;
+  color: white;
 }
 .btn{
-  width: 120px;
+  width: 200px;
   height: 50px;
+  background: tomato;
+  color: white;
+  border-style: none;
   font-size: 25px;
   justify-self: center;
   align-self: end;
+}
+.btn:hover{
+  background: rgb(202, 78, 56);
+}
+.btn:active{
+  background: tomato;
 }
